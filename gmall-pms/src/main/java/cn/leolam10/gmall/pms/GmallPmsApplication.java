@@ -5,6 +5,15 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * 1.配置整合dubbo
+ * 2.配置整合MyBatisPlus
+ *
+ * logstash整合:
+ *  1)导入Jar包
+ *  2)导入日志配置
+ *  3)在kibana里面建立好日志的索引，就可以可视化检索
+ */
 @EnableDubbo
 @MapperScan(basePackages = "cn.leolam10.gmall.pms.mapper")
 @SpringBootApplication
