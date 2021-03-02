@@ -24,7 +24,7 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("cms_help")
-@ApiModel(value="Help对象", description="帮助表")
+@ApiModel(value="Help的对象", description="帮助的表")
 public class Help implements Serializable {
 
     private static final long serialVersionUID = 1L;
